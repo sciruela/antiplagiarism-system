@@ -1,6 +1,5 @@
 <?php
 include("webscrapping.php");
-echo $_FILES["fileToUpload"]["type"];
 if ((($_FILES["fileToUpload"]["type"] == "application/pdf")
 || ($_FILES["fileToUpload"]["type"] == "image/jpeg")|| ($_FILES["fileToUpload"]["type"] == "image/pjpeg")))
   {
